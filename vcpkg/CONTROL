@@ -1,4 +1,0 @@
-Source: ros-dashing-rosidl-typesupport-fastrtps-c
-Version: 0.7.1
-Description: Generate the C interfaces for eProsima FastRTPS.
-Build-Depends:
