@@ -1,15 +1,15 @@
 <?xml version="1.0"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>ros-dashing-fastrtps-cmake-module</id>
-    <version>0.7.1</version>
-    <title>ros-dashing-fastrtps-cmake-module</title>
-    <authors>Dirk Thomas</authors>
+    <id>@(Package)</id>
+    <version>@(Version)</version>
+    <title>@(Package)</title>
+    <authors>@(Authors)</authors>
     <owners>OSRF</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Provide CMake module to find eProsima FastRTPS.</description>
+    <description>@(Description)</description>
     <dependencies>
-
+@[for d in Depends]@(d)@[end for]
     </dependencies>
   </metadata>
   <files>
